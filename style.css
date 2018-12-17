@@ -3,10 +3,10 @@ body {
   }
   
   h1 {
-    color: navy;
+    color: purple;
     margin-left: 20px;
-    border-style: solid;
   }
+  
   p {
       color: rebeccapurple
       font-family: arial;  }
