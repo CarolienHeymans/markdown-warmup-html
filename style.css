@@ -1,6 +1,23 @@
-body {font-family: "Roboto", sans-serif;}
-h1 {
-  background-color: bisque;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center
 }
-h2 {}
-h3 {}
+nav {
+  grid-area:nav ;
+}
+#welkom{
+  grid-area: welkom;
+}
+#techno {
+  grid-area:techno;
+}
+
+
+.container {
+  grid-template-columns: 50px 50px 50px 50px 50px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "nav nav nav "
+    " welkom welkom welkom"
+    "techno techno techno";
+}
