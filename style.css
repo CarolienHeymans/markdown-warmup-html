@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto Slab', serif;
   background-color:#C0C0C0;
   box-sizing: border-box;
 }
@@ -49,9 +49,9 @@ margin-right: auto;
 #git {
   float: left;
   width: 33.33%;
-  height: 600px;
+  height: 630px;
   padding: 5px;
-  text-align: center;
+  text-align: left;
   border: 5px solid whitesmoke;
   box-sizing: border-box;
 
@@ -59,7 +59,7 @@ margin-right: auto;
 #html {
   float: left;
   width: 33.33%;
-  height: 600px;
+  height: 630px;
   padding: 5px;
   text-align: center;
   border: 5px solid whitesmoke;
@@ -69,9 +69,9 @@ margin-right: auto;
 #css {
   float:left;
   width: 33.33%; 
-  height: 600px;
+  height: 630px;
   padding: 5px;
-  text-align: center;
+  text-align: right;
   border: 5px solid whitesmoke;
   box-sizing: border-box;
 }
@@ -80,7 +80,7 @@ margin-right: auto;
   float:left;
   width: 50%;  
   height: 200px;
-  text-align: center;
+  text-align: left;
   border: 5px solid whitesmoke;
   box-sizing: border-box;
 }
@@ -89,7 +89,7 @@ margin-right: auto;
   float: right;
   width: 50%;  
   height: 200px;
-  text-align: center;
+  text-align: right;
   border: 5px solid whitesmoke;
   box-sizing: border-box;
 }
