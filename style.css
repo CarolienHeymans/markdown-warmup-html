@@ -35,10 +35,12 @@ a {
 
 #welkom {
   box-sizing: border-box;
+  padding: 10px
 }
 
 #techno {
   box-sizing: border-box;
+  padding: 10px;
 }
 #content {
 margin-left: auto;
