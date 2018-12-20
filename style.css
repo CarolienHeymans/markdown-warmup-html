@@ -1,97 +1,86 @@
-body {
-  font-family: 'Roboto Slab', serif;
+html {
   box-sizing: border-box;
-  background-image: url(https://odysseyonline-img.rbl.ms/simage/https%3A%2F%2Fassets.rbl.ms%2F16967906%2F980x.jpg/2000%2C2000/2Z6U8UBOlBPPcqTP/img.jpg);
-padding: 20px;
 }
 
-#top {display: flex;
-width: auto;
-height: auto;
-box-sizing: border-box;}
+body {
+  font-family: 'Roboto Slab', serif;
+  background-image: url(https://odysseyonline-img.rbl.ms/simage/https%3A%2F%2Fassets.rbl.ms%2F16967906%2F980x.jpg/2000%2C2000/2Z6U8UBOlBPPcqTP/img.jpg);
+  padding: 20px;
+}
 
-#header {
-text-align: left;
-line-height: 100px;
-width: 50%;
-color: whitesmoke;
-background-color: #778899;
-font-size: 40px;
+.container {
+  background-color: #778899;
+}
+
+
+header {
+  text-align: left;
+  line-height: 100px;
+  width: 50%;
+  color: whitesmoke;
+  background-color: #778899;
+  font-size: 40px;
+  display: flex;
+  width: auto;
+  height: auto;
 }
 
 nav {
   background-color: #778899;
   text-align: right;
-  box-sizing: border-box;
-   float: right;
   width: 50%;
   color: whitesmoke;
 }
+
 a {
   text-decoration: none;
-  padding: 10px;
   font-size: 32px;
   color: whitesmoke
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+}
+
 #welkom {
-  box-sizing: border-box;
-  padding: 20px;
+  width: 60%;
   font-size: large;
   background-color: #778899;
- 
 }
 
 #techno {
-  box-sizing: border-box;
-  padding: 20px;
+  width: 40%;
   font-size: large;
   background-color: #778899;
-  }
-#content {
-margin-left: auto;
-margin-right: auto;
-text-align: center
 }
-#git {
-  float: left;
-  width: 33.33%;
-  height: 630px;
-  padding: 5px;
-  border: 5px solid whitesmoke;
-  box-sizing: border-box;
 
+#content {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  align-content:space-around;
 }
+
+#git {
+  width: 33%;
+}
+
 #html {
-  float: left;
-  width: 33.33%;
-  height: 630px;
-  padding: 5px;
-   border: 5px solid whitesmoke;
-  box-sizing: border-box;
+  width: 33%;
 }
 
 #css {
-  float:left;
-  width: 33.33%; 
-  height: 630px;
-  padding: 5px;
-  border: 5px solid whitesmoke;
-  box-sizing: border-box;
+  width: 33%;
 }
 
 #js {
-  float:left;
-  width: 50%;  
-  height: 200px;
-  border: 5px solid whitesmoke;
-  box-sizing: border-box;
+  width: 50%;
 }
 
 #php {
-  float: right;
-  width: 50%;  
-  height: 200px;
-  border: 5px solid whitesmoke;
-  box-sizing: border-box;
+  width: 50%;
 }
