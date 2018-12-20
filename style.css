@@ -5,11 +5,11 @@ html {
 body {
   font-family: 'Roboto Slab', serif;
   background-image: url(https://odysseyonline-img.rbl.ms/simage/https%3A%2F%2Fassets.rbl.ms%2F16967906%2F980x.jpg/2000%2C2000/2Z6U8UBOlBPPcqTP/img.jpg);
-  padding: 20px;
+padding: 20px;
 }
 
 .container {
-  background-color: #778899;
+  background-color:black;
 }
 
 
@@ -18,69 +18,89 @@ header {
   line-height: 100px;
   width: 50%;
   color: whitesmoke;
-  background-color: #778899;
+  background-color:black;
+  border: 5px solid #2F4F4F;
   font-size: 40px;
   display: flex;
   width: auto;
   height: auto;
+  padding: 15px;
 }
 
 nav {
-  background-color: #778899;
   text-align: right;
   width: 50%;
   color: whitesmoke;
+  word-spacing: 10px;
+  margin-right: 10px;
 }
 
 a {
   text-decoration: none;
   font-size: 32px;
-  color: whitesmoke
+  color: whitesmoke;
 }
 
 section {
   display: flex;
   flex-direction: row;
+  background-color:black;
+  border: 5px solid #2F4F4F;
+  color: whitesmoke;
+  padding: 15px;
 }
 
 #welkom {
   width: 60%;
   font-size: large;
-  background-color: #778899;
+  margin: 10px;
+ 
 }
 
 #techno {
   width: 40%;
   font-size: large;
-  background-color: #778899;
+  margin: 10px;
 }
 
 #content {
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-  flex-wrap: wrap;
   display: flex;
-  flex-direction: row;
-  align-content:space-around;
+  flex-flow: row wrap;
+  color: whitesmoke;
+  justify-content: flex-start;
+  border: 5px solid #2F4F4F;
+  
+  
 }
 
 #git {
-  width: 33%;
+  width: 33.05%;
+  background-color:black;
+  border: 2px solid #2F4F4F;
 }
 
 #html {
-  width: 33%;
+  width: 33.05%;
+  background-color:black;
+  border: 2px solid #2F4F4F;
+
 }
 
 #css {
-  width: 33%;
+  width: 33.05%;
+  background-color:black;
+  border: 2px solid #2F4F4F;
 }
 
 #js {
-  width: 50%;
+  width: 49.73%; 
+  background-color:black;
+  border: 2px solid #2F4F4F;
 }
 
 #php {
-  width: 50%;
+  width: 49.72%;
+  background-color:black;
+  border: 2px solid #2F4F4F;
 }
